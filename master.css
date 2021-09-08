@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.conteiner{
+    height: 100vh;
+    position: relative;
+}
+
+
+.conteiner ul li{
+    display: inline-block;
+
+}
+.conteiner ul li a{
+   display: inline-block;
+   text-decoration: none;
+   padding: 10px;
+  
+}
+
+
+.text{
+    font-family: 'Rubik Mono One', sans-serif;
+     margin: auto;
+
+}
+.conteiner img{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
+}
+
+.red{
+    background-color: rgb(255, 0, 0);
+}
+
+.green{
+    background-color: green;
+
+}
+.yellow{
+    background-color: yellow;
+}
