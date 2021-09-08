@@ -10,31 +10,45 @@
     position: relative;
 }
 
-
-.conteiner ul li{
+.fixed{
+    position: fixed;
+    right: 10px;
+    top: 5px;
+    z-index: 1;
+}
+ul li{
     display: inline-block;
 
 }
-.conteiner ul li a{
+ul li a{
    display: inline-block;
    text-decoration: none;
    padding: 10px;
+   width: 40px;
+   height: 40px;
+   background-color: white;
+   border-radius: 50%;
+   text-align: center;
   
 }
 
-
-.text{
-    font-family: 'Rubik Mono One', sans-serif;
-     margin: auto;
-
-}
-.conteiner img{
+.box-shoes{ 
     width: 40%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
 
+}
+
+.text{
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+    font-size: 27px;
+    color: yellow;
+}
+.conteiner img{
+    width: 100%;
 }
 
 .red{
